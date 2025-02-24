@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa de Satisfação</title>
+  </head>
+  <body>
+    <form action="banco_de_dados" method="post">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Nome" id="nome" />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="E-mail" id="email" />
+      </div>
+      <div>
+        <label for="contato">Telefone</label>
+        <input type="text" placeholder="Telefone" id="contato" />
+      </div>
+      <div>
+        <p>Você encontrou o que procurava?</p>
+        <label for="atendimento_s">Sim</label>
+        <input type="radio" id="atendimento_s" />
+        <label for="atendimento_n">Não</label>
+        <input type="radio" id="atendimento_n" />
+      </div>
+      <div>
+        <p>Você esta satisfeito com o atendimento?</p>
+        <label for="atendimento_s">Sim</label>
+        <input type="radio" id="atendimento_s" />
+        <label for="atendimento_n">Não</label>
+        <input type="radio" id="atendimento_n" />
+      </div>
+      <div>
+        <p>Defina no geral o nosso atendimento</p>
+        <select>
+          <option>Bom</option>
+          <option>Regular</option>
+          <option>Ótimo</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" id="termos" />
+        <label for="termos">Concordo com os termos de privacidade</label>
+      </div>
+      <div><input type="submit" value="Enviar" /></div>
+    </form>
+  </body>
+</html>
