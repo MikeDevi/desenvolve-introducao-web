@@ -1,8 +1,8 @@
 /* 1 */
-body {
+.page-wrapper {
   width: 80%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
 }
 .into {
   height: 550px;
