@@ -1,6 +1,6 @@
 /* 1 */
 body {
-  width: 120px;
+  width: 1200px;
   margin: 0 auto;
   font-family: "sans-serif";
 }
@@ -24,7 +24,7 @@ h3 {
 
 /* 3 */
 .summary {
-  text-align: right;
+  text-align: center;
 }
 main p {
   line-height: 1.5;

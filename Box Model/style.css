@@ -1,0 +1,51 @@
+/* 1 */
+body {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.into {
+  height: 550px;
+}
+
+#design-archives {
+  display: none;
+}
+
+/* 2 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+}
+
+header h1 header h2 {
+  display: inline-block;
+}
+header h1 {
+  padding-left: 1em;
+}
+
+/* 3 */
+.sidebar ul {
+  /* Removendo os  bullets */
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1em;
+}
+.sidebar ul {
+  text-align: center;
+}
+
+/* 4 */
+footer {
+  margin: 4%;
+}
+
+footer a {
+  border: 2px solid;
+  padding: 0.5em;
+}
