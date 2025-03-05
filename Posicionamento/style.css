@@ -1,2 +1,13 @@
 .page-wrapper {
+  position: relative;
+}
+
+.explanation {
+  width: 60%;
+  margin-right: 35%;
+  border-right: 1px solid(#1f295c);
+  padding-right: 2%;
+}
+.explanation {
+  position: relative;
 }
