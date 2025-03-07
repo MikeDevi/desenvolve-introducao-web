@@ -1,0 +1,33 @@
+/* Customização dos links */
+a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:visited {
+  font-weight: normal;
+}
+
+/* Destaque na primeira letra do primeiro parágrafo */
+#intro p:first-of-type::first-letter {
+  font-size: 3em;
+  font-family: "Georgia", serif;
+  float: left;
+  line-height: 1;
+  margin-right: 0.1em;
+}
+
+/* Separadores no menu de design */
+#design-selection ul li {
+  border-top: 1px solid #1f295c;
+  padding: 0.5em 0;
+}
+
+#design-selection ul li:last-child {
+  border-bottom: 1px solid #1f295c;
+}
