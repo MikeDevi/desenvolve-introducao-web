@@ -1,0 +1,77 @@
+.page-wrapper {
+  position: relative;
+}
+
+.explanation {
+  width: 60%;
+  margin-right: 35%;
+  position: relative;
+  border-right: 1px solid #1f295c;
+  padding-right: 2%;
+}
+
+#design-selection {
+  position: absolute;
+  top: 560px;
+  left: 62%;
+  width: 35%;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+footer a {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #1f295c;
+  border-bottom: 1px solid #1f295c;
+  padding: 1em 0;
+}
+
+.benefits .summary {
+  flex: 70%;
+}
+
+.benefits h3 {
+  flex: 30%;
+  text-align: right;
+  padding-left: 1em;
+  box-sizing: border-box;
+}
+
+.participation {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1f295c;
+  padding: 1em 0;
+}
+
+.participation .summary,
+.participation h3 {
+  flex: 50%;
+  box-sizing: border-box;
+}
+
+.participation h3 {
+  text-align: center;
+  padding-left: 1em;
+}
+
+.benefits + .participation {
+  border-top: none;
+}
