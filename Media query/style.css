@@ -1,0 +1,81 @@
+/* Mobile */
+@media screen and (max-width: 768px) {
+  /* Remove o reposicionamento do menu de design */
+  #design-selection {
+    position: static;
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Remove a borda lateral da div .explanation */
+  .explanation {
+    border-right: none;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* Muda a orientação do Flexbox para vertical e empilha os elementos */
+  .benefits,
+  .participation {
+    flex-direction: column;
+  }
+
+  .benefits .summary,
+  .benefits h3,
+  .participation .summary,
+  .participation h3 {
+    flex: 100%;
+    text-align: left;
+    padding: 0;
+  }
+
+  /* Remove a altura fixa do cabeçalho */
+  #intro {
+    height: auto;
+  }
+
+  /* Remove o espaçamento inicial dos parágrafos */
+  p {
+    margin-top: 0;
+  }
+}
+
+/* Impressão */
+@media print {
+  /* Altera o estilo da fonte para uma serifada */
+  body {
+    font-family: "Times New Roman", serif;
+  }
+
+  /* Inverte as cores do banner */
+  header {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  /* Remove bordas e cores desnecessárias para impressão */
+  footer a {
+    border: none;
+    color: black;
+  }
+
+  /* Remove espaçamentos e bordas extras */
+  .benefits,
+  .participation {
+    border: none;
+    padding: 0;
+  }
+
+  /* Ajusta o layout para impressão */
+  .page-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* Remove elementos desnecessários para impressão */
+  #design-archives,
+  #design-selection {
+    display: none;
+  }
+}
